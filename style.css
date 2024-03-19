@@ -1,0 +1,128 @@
+*{
+
+margin: 0;
+padding: 0;
+box-sizing:border-box;
+font-family: sans-serif;
+
+}
+
+body {
+
+display:flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background-size: cover;
+
+}
+#video {
+    position: fixed; 
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto; 
+    height: auto;
+    z-index: -1; 
+    background-size: cover;
+  }
+.kutu {
+    width: 420px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border: 2px solid rgba(255, 255, 255, .2);
+    color: #fff;
+    border-radius: 10px;
+padding: 30px 40px;
+
+}
+.kutu h1 {
+
+
+
+    font-size: 36px;
+    text-align: center;
+}
+
+.kutu .box{
+width: 100%;
+height: 50%;
+margin: 30px 0;
+}
+.box input {
+width: 100%;
+height: 100%;
+
+background: transparent;
+border: none;
+outline: none;
+border : 2px solid gray;
+border-radius: 40px;
+font-size: 16px;
+color: #fff;
+padding: 20px 45px 20px 20px;
+}
+ .box input::placeholder {
+
+
+
+color: #fff;
+}
+
+.kutu .remember {
+
+display: flex;
+justify-content: space-between;
+font-size: 14.5px;
+margin:-15px 0 15px;
+
+
+}
+.remember label input a {
+color: #fff;
+accent-color: #fff;
+text-decoration: none;
+}
+.remember a {
+    color: #fff;
+
+    text-decoration: none;
+
+}
+.remember  a:hover {
+color: bisque;
+text-decoration: underline;
+}
+.kutu .btn {
+width: 100%;
+height: 45px;
+background: #fff;
+border: none;
+outline: none;
+border-radius: 40px;
+box-shadow: 0 0 10px rgba(0, 0, 0,1);
+cursor: pointer;
+font-size: 16px;
+color: #333;
+}
+
+.kutu .register {
+color: #fff;
+font-size: 15px;
+text-align: center;
+margin: 20px 0 15px ;
+}
+
+.register p a {
+
+    color: #fff;
+    text-decoration: none;
+font-weight: 600;
+}
+
+.register p a :hover {
+color: #fff;
+text-decoration: underline;
+
+}
